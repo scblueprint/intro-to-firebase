@@ -1,9 +1,15 @@
-import {Song} from "./song";
+import {Song, Songs} from "./song";
 
-export async function getSongs(): Promise<Song[]> {
+export async function getSongs(): Promise<Songs> {
   // Your logic here
 
-  return [];
+  return {};
+}
+
+export async function createSong(song: Song) : Promise<string> {
+  // Your logic here
+
+  return "";
 }
 
 export async function createSong(song: Song) : Promise<void> {
