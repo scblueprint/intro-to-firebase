@@ -1,0 +1,25 @@
+import {Song} from "./song";
+
+export async function getSongs(): Promise<Song[]> {
+  // Your logic here
+
+  return [];
+}
+
+export async function createSong(song: Song) : Promise<void> {
+  // Your logic here
+
+  return;
+}
+
+export async function updateSong(id: string, song: Song) : Promise<void> {
+  // Your logic here
+
+  return;
+}
+
+export async function deleteSong(id: string) : Promise<void> {
+  // Your logic here
+
+  return;
+}
