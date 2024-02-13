@@ -1,5 +1,26 @@
+/* to center horizontally */
+body {
+    justify-content: center;
+}
+
 .form-body {
-    background-color: grey;
-    height: 100%;
-    width: 50%;
+    background-color: white;
+    padding: 10%;
+    width: 30vw;
+    height: fit-content;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question {
+    margin: 1vw;
+    border-radius: 5px;
+    border: none;
+    padding: 5%;
+    width: 80%;
+    background-color: rgb(188, 185, 189);
+    color: rgb(109, 109, 109);
 }
