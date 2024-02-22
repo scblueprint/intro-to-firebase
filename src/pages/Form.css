@@ -1,18 +1,25 @@
 /* to center horizontally */
 body {
     justify-content: center;
+    align-items: center;
+    background-image: url("../assets/music_border_recolor.svg");
+    background-repeat: no-repeat;
+    background-color: wheat;
+    overflow: hidden;
+    /* background-size: cover; */
 }
 
 .form-body {
-    background-color: white;
-    padding: 10%;
+    background-color: rgba(65, 65, 65, 0.8);
+    padding: 5% 5%;
     width: 30vw;
     height: fit-content;
-    border-radius: 5px;
+    border-radius: 10px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .question {
@@ -21,6 +28,27 @@ body {
     border: none;
     padding: 5%;
     width: 80%;
-    background-color: rgb(188, 185, 189);
-    color: rgb(109, 109, 109);
+    background-color: rgb(233, 232, 234);
+    color: rgb(62, 62, 62);
 }
+
+.title {
+    font-size: 36px;;
+    justify-self: center;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.form-btns {
+    width: 100%;
+    margin-top: 3vh;
+    justify-content: space-around;
+}
+
+.form-btn {
+    background-color: #a66a98;
+}
+
